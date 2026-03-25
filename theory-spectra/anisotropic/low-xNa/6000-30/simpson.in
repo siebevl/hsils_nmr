@@ -1,0 +1,44 @@
+spinsys {
+
+channels 23Na
+nuclei 23Na
+
+shift 1 555.9140000000001p 12.09521407532831p 0.42933844807577337 239.24427633772632 95.1627738094445 73.80367190522406
+quadrupole 1 2 -3049387.0186311947 0.5122134069362654 54.08811629662824 89.41743260717288 33.787799052883344
+
+}
+
+
+par {
+    spin_rate        4000.0
+    np               4096
+    proton_frequency 500850000.0
+    start_operator   I1x
+    detect_operator  I1x
+    method           direct
+    crystal_file     rep256
+    gamma_angles     208
+    variable sw      gamma_angles*spin_rate
+    verbose          1111
+    variable tsw     1e6/sw
+    variable rf      60000.0
+    variable t45     2.05
+}
+
+proc pulseq {} {
+    global par
+    #pulse $par(t45) $par(rf) x
+    acq_block {
+    delay $par(tsw)
+    }
+}
+
+proc main {} {
+    global par
+    set f [fsimpson]
+    faddlb $f 100 0
+    fzerofill $f 4096
+    fft $f
+    #fsave $f output.spe
+    fsave $f output.txt -xreim
+}

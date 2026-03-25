@@ -1,0 +1,60 @@
+Parameters
+  crystal_file         alpha0beta0
+  detect_operator      I1x
+  gamma_angles         208
+  method               direct
+  name                 simpson
+  np                   4096
+  proton_frequency     500850000.0
+  rf                   60000.0
+  spin_rate            4000.0
+  start_operator       I1x
+  sw                   832000.0
+  t45                  2.05
+  tsw                  1.2019230769230769
+  verbose              1111
+string variable various in array par is set to default value 0
+integer variable MPI_rank in array par is set to default value 0
+integer variable MPI_size in array par is set to default value 1
+double variable proton_frequency in array par is set to 5.0085e+08
+double variable field in array par is set to default value -100001
+double variable spin_rate in array par is set to 4000
+double variable sw in array par is set to 832000
+double variable sw1 in array par is set to default value 0
+integer variable np in array par is set to 4096
+integer variable ni in array par is set to default value 0
+integer variable points_per_cycle in array par is set to default value 8
+string variable name in array par is set to simpson
+integer variable dor in array par is set to default value 0
+double variable rotor_angle in array par is set to default value -123.456
+The rotor_angle is set to 54.7356
+double variable gamma_zero in array par is set to default value 0
+integer variable gamma_angles in array par is set to 208
+integer variable acq_adjoint in array par is set to default value 0
+string variable dipole_check in array par is set to default value true
+integer variable real_spec in array par is set to default value 0
+string variable rfprof_file in array par is set to default value none
+string variable pulse_sequence in array par is set to default value pulseq
+Reading spinsystem:
+Number of spins : 1
+   nucleus   1 : '23Na'
+Number of channels : 1
+   channel   1  : '23Na' contain nucleus(1,Na)
+Chemical shift on nucleus 1
+  isotropic shift        : 70492.3 Hz
+  anisotropic shift      : -0 Hz
+  asymmetry parameter    : 0
+  euler angles of tensor :  (-14.1034,117.299,42.6038) degrees
+Done reading spinsystem file.
+Number of anisotropic interactions: 0
+Spin system matrix dimension: 4
+Interaction Hamiltonian is  diagonal
+Hamiltonian block structure will not be used
+string variable conjugate_fid in array par is set to default value auto
+integer variable ED_symmetry in array par is set to default value -1
+string variable relax in array par is set to default value off
+integer variable do_avg in array par is set to default value 0
+string variable zprofile in array par is set to default value none
+integer variable zvals in array par is set to default value 1
+Worker 1/1: [cryst 1/1]
+All done!

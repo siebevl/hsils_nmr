@@ -1,0 +1,13 @@
+! PBE pcSseg-3 verytightscf stability
+* xyzfile $CHARGE 1 system.xyz
+%maxcore $PBS_MEM
+%pal
+  nprocs 8
+end
+%scf
+  maxiter 1000
+end
+%eprnmr
+         nuclei = all Na {shift, fgrad}
+         ori giao
+end

@@ -1,0 +1,320 @@
+Parameters
+  crystal_file         rep256
+  detect_operator      I1x
+  gamma_angles         208
+  method               direct
+  name                 simpson
+  np                   4096
+  proton_frequency     500850000.0
+  rf                   60000.0
+  spin_rate            4000.0
+  start_operator       I1x
+  sw                   832000.0
+  t45                  2.05
+  tsw                  1.2019230769230769
+  verbose              1111
+string variable various in array par is set to default value 0
+integer variable MPI_rank in array par is set to default value 0
+integer variable MPI_size in array par is set to default value 1
+double variable proton_frequency in array par is set to 5.0085e+08
+double variable field in array par is set to default value -100001
+double variable spin_rate in array par is set to 4000
+double variable sw in array par is set to 832000
+double variable sw1 in array par is set to default value 0
+integer variable np in array par is set to 4096
+integer variable ni in array par is set to default value 0
+integer variable points_per_cycle in array par is set to default value 8
+string variable name in array par is set to simpson
+integer variable dor in array par is set to default value 0
+double variable rotor_angle in array par is set to default value -123.456
+The rotor_angle is set to 54.7356
+double variable gamma_zero in array par is set to default value 0
+integer variable gamma_angles in array par is set to 208
+integer variable acq_adjoint in array par is set to default value 0
+string variable dipole_check in array par is set to default value true
+integer variable real_spec in array par is set to default value 0
+string variable rfprof_file in array par is set to default value none
+string variable pulse_sequence in array par is set to default value pulseq
+Reading spinsystem:
+Number of spins : 1
+   nucleus   1 : '23Na'
+Number of channels : 1
+   channel   1  : '23Na' contain nucleus(1,Na)
+Chemical shift on nucleus 1
+  isotropic shift        : -73121.9 Hz
+  anisotropic shift      : 1717.82 Hz
+  asymmetry parameter    : 0.43151
+  euler angles of tensor :  (57.6371,81.1556,-114.849) degrees
+Quadrupolar coupling on nucleus 1 up to order 2
+  quadrupolar constant         :  3.29326e+06 Hz
+  quadrupolar assymetry        :  0.705182
+  euler angles of tensor       :  (-123.057,109.972,-144.916) degrees
+  perturbation treatment validity report: 0.00 << 1 is fulfilled
+Done reading spinsystem file.
+Number of anisotropic interactions: 2
+Spin system matrix dimension: 4
+Interaction Hamiltonian is  diagonal
+Hamiltonian block structure will not be used
+string variable conjugate_fid in array par is set to default value auto
+integer variable ED_symmetry in array par is set to default value -1
+string variable relax in array par is set to default value off
+integer variable do_avg in array par is set to default value 0
+string variable zprofile in array par is set to default value none
+integer variable zvals in array par is set to default value 1
+Worker 7/1: [cryst 7/256]
+Worker 167/1: [cryst 167/256]
+Worker 11/1: [cryst 11/256]
+Worker 16/1: [cryst 16/256]
+Worker 31/1: [cryst 31/256]
+Worker 92/1: [cryst 92/256]
+Worker 51/1: [cryst 51/256]
+Worker 142/1: [cryst 142/256]
+Worker 141/1: [cryst 141/256]
+Worker 80/1: [cryst 80/256]
+Worker 14/1: [cryst 14/256]
+Worker 19/1: [cryst 19/256]
+Worker 21/1: [cryst 21/256]
+Worker 29/1: [cryst 29/256]
+Worker 23/1: [cryst 23/256]
+Worker 28/1: [cryst 28/256]
+Worker 27/1: [cryst 27/256]
+Worker 81/1: [cryst 81/256]
+Worker 56/1: [cryst 56/256]
+Worker 30/1: [cryst 30/256]
+Worker 26/1: [cryst 26/256]
+Worker 36/1: [cryst 36/256]
+Worker 76/1: [cryst 76/256]
+Worker 88/1: [cryst 88/256]
+Worker 58/1: [cryst 58/256]
+Worker 38/1: [cryst 38/256]
+Worker 160/1: [cryst 160/256]
+Worker 41/1: [cryst 41/256]
+Worker 66/1: [cryst 66/256]
+Worker 40/1: [cryst 40/256]
+Worker 42/1: [cryst 42/256]
+Worker 107/1: [cryst 107/256]
+Worker 62/1: [cryst 62/256]
+Worker 44/1: [cryst 44/256]
+Worker 46/1: [cryst 46/256]
+Worker 25/1: [cryst 25/256]
+Worker 122/1: [cryst 122/256]
+Worker 109/1: [cryst 109/256]
+Worker 69/1: [cryst 69/256]
+Worker 60/1: [cryst 60/256]
+Worker 53/1: [cryst 53/256]
+Worker 10/1: [cryst 10/256]
+Worker 34/1: [cryst 34/256]
+Worker 90/1: [cryst 90/256]
+Worker 75/1: [cryst 75/256]
+Worker 68/1: [cryst 68/256]
+Worker 103/1: [cryst 103/256]
+Worker 72/1: [cryst 72/256]
+Worker 82/1: [cryst 82/256]
+Worker 78/1: [cryst 78/256]
+Worker 110/1: [cryst 110/256]
+Worker 85/1: [cryst 85/256]
+Worker 89/1: [cryst 89/256]
+Worker 168/1: [cryst 168/256]
+Worker 154/1: [cryst 154/256]
+Worker 91/1: [cryst 91/256]
+Worker 84/1: [cryst 84/256]
+Worker 83/1: [cryst 83/256]
+Worker 138/1: [cryst 138/256]
+Worker 97/1: [cryst 97/256]
+Worker 87/1: [cryst 87/256]
+Worker 116/1: [cryst 116/256]
+Worker 106/1: [cryst 106/256]
+Worker 95/1: [cryst 95/256]
+Worker 94/1: [cryst 94/256]
+Worker 98/1: [cryst 98/256]
+Worker 132/1: [cryst 132/256]
+Worker 104/1: [cryst 104/256]
+Worker 159/1: [cryst 159/256]
+Worker 99/1: [cryst 99/256]
+Worker 100/1: [cryst 100/256]
+Worker 79/1: [cryst 79/256]
+Worker 6/1: [cryst 6/256]
+Worker 12/1: [cryst 12/256]
+Worker 52/1: [cryst 52/256]
+Worker 108/1: [cryst 108/256]
+Worker 102/1: [cryst 102/256]
+Worker 101/1: [cryst 101/256]
+Worker 111/1: [cryst 111/256]
+Worker 131/1: [cryst 131/256]
+Worker 123/1: [cryst 123/256]
+Worker 113/1: [cryst 113/256]
+Worker 115/1: [cryst 115/256]
+Worker 112/1: [cryst 112/256]
+Worker 118/1: [cryst 118/256]
+Worker 176/1: [cryst 176/256]
+Worker 158/1: [cryst 158/256]
+Worker 137/1: [cryst 137/256]
+Worker 96/1: [cryst 96/256]
+Worker 55/1: [cryst 55/256]
+Worker 152/1: [cryst 152/256]
+Worker 165/1: [cryst 165/256]
+Worker 127/1: [cryst 127/256]
+Worker 119/1: [cryst 119/256]
+Worker 189/1: [cryst 189/256]
+Worker 164/1: [cryst 164/256]
+Worker 175/1: [cryst 175/256]
+Worker 162/1: [cryst 162/256]
+Worker 124/1: [cryst 124/256]
+Worker 61/1: [cryst 61/256]
+Worker 125/1: [cryst 125/256]
+Worker 172/1: [cryst 172/256]
+Worker 151/1: [cryst 151/256]
+Worker 192/1: [cryst 192/256]
+Worker 133/1: [cryst 133/256]
+Worker 8/1: [cryst 8/256]
+Worker 114/1: [cryst 114/256]
+Worker 74/1: [cryst 74/256]
+Worker 3/1: [cryst 3/256]
+Worker 129/1: [cryst 129/256]
+Worker 139/1: [cryst 139/256]
+Worker 171/1: [cryst 171/256]
+Worker 140/1: [cryst 140/256]
+Worker 135/1: [cryst 135/256]
+Worker 149/1: [cryst 149/256]
+Worker 13/1: [cryst 13/256]
+Worker 145/1: [cryst 145/256]
+Worker 153/1: [cryst 153/256]
+Worker 146/1: [cryst 146/256]
+Worker 156/1: [cryst 156/256]
+Worker 148/1: [cryst 148/256]
+Worker 130/1: [cryst 130/256]
+Worker 136/1: [cryst 136/256]
+Worker 73/1: [cryst 73/256]
+Worker 126/1: [cryst 126/256]
+Worker 143/1: [cryst 143/256]
+Worker 43/1: [cryst 43/256]
+Worker 147/1: [cryst 147/256]
+Worker 187/1: [cryst 187/256]
+Worker 161/1: [cryst 161/256]
+Worker 170/1: [cryst 170/256]
+Worker 157/1: [cryst 157/256]
+Worker 93/1: [cryst 93/256]
+Worker 117/1: [cryst 117/256]
+Worker 128/1: [cryst 128/256]
+Worker 45/1: [cryst 45/256]
+Worker 70/1: [cryst 70/256]
+Worker 134/1: [cryst 134/256]
+Worker 163/1: [cryst 163/256]
+Worker 173/1: [cryst 173/256]
+Worker 174/1: [cryst 174/256]
+Worker 182/1: [cryst 182/256]
+Worker 166/1: [cryst 166/256]
+Worker 178/1: [cryst 178/256]
+Worker 179/1: [cryst 179/256]
+Worker 185/1: [cryst 185/256]
+Worker 181/1: [cryst 181/256]
+Worker 177/1: [cryst 177/256]
+Worker 184/1: [cryst 184/256]
+Worker 188/1: [cryst 188/256]
+Worker 4/1: [cryst 4/256]
+Worker 190/1: [cryst 190/256]
+Worker 191/1: [cryst 191/256]
+Worker 183/1: [cryst 183/256]
+Worker 20/1: [cryst 20/256]
+Worker 22/1: [cryst 22/256]
+Worker 18/1: [cryst 18/256]
+Worker 5/1: [cryst 5/256]
+Worker 86/1: [cryst 86/256]
+Worker 35/1: [cryst 35/256]
+Worker 37/1: [cryst 37/256]
+Worker 155/1: [cryst 155/256]
+Worker 39/1: [cryst 39/256]
+Worker 105/1: [cryst 105/256]
+Worker 24/1: [cryst 24/256]
+Worker 9/1: [cryst 9/256]
+Worker 169/1: [cryst 169/256]
+Worker 15/1: [cryst 15/256]
+Worker 63/1: [cryst 63/256]
+Worker 57/1: [cryst 57/256]
+Worker 180/1: [cryst 180/256]
+Worker 59/1: [cryst 59/256]
+Worker 47/1: [cryst 47/256]
+Worker 54/1: [cryst 54/256]
+Worker 50/1: [cryst 50/256]
+Worker 71/1: [cryst 71/256]
+Worker 49/1: [cryst 49/256]
+Worker 48/1: [cryst 48/256]
+Worker 150/1: [cryst 150/256]
+Worker 33/1: [cryst 33/256]
+Worker 77/1: [cryst 77/256]
+Worker 32/1: [cryst 32/256]
+Worker 120/1: [cryst 120/256]
+Worker 186/1: [cryst 186/256]
+Worker 144/1: [cryst 144/256]
+Worker 65/1: [cryst 65/256]
+Worker 64/1: [cryst 64/256]
+Worker 121/1: [cryst 121/256]
+Worker 67/1: [cryst 67/256]
+Worker 17/1: [cryst 17/256]
+Worker 2/1: [cryst 2/256]
+Worker 1/1: [cryst 1/256]
+Worker 15/1: [cryst 207/256]
+Worker 53/1: [cryst 245/256]
+Worker 9/1: [cryst 201/256]
+Worker 43/1: [cryst 235/256]
+Worker 7/1: [cryst 199/256]
+Worker 59/1: [cryst 251/256]
+Worker 8/1: [cryst 200/256]
+Worker 62/1: [cryst 254/256]
+Worker 33/1: [cryst 225/256]
+Worker 36/1: [cryst 228/256]
+Worker 56/1: [cryst 248/256]
+Worker 28/1: [cryst 220/256]
+Worker 22/1: [cryst 214/256]
+Worker 58/1: [cryst 250/256]
+Worker 30/1: [cryst 222/256]
+Worker 20/1: [cryst 212/256]
+Worker 14/1: [cryst 206/256]
+Worker 51/1: [cryst 243/256]
+Worker 39/1: [cryst 231/256]
+Worker 18/1: [cryst 210/256]
+Worker 47/1: [cryst 239/256]
+Worker 19/1: [cryst 211/256]
+Worker 6/1: [cryst 198/256]
+Worker 32/1: [cryst 224/256]
+Worker 21/1: [cryst 213/256]
+Worker 16/1: [cryst 208/256]
+Worker 31/1: [cryst 223/256]
+Worker 57/1: [cryst 249/256]
+Worker 13/1: [cryst 205/256]
+Worker 11/1: [cryst 203/256]
+Worker 40/1: [cryst 232/256]
+Worker 10/1: [cryst 202/256]
+Worker 45/1: [cryst 237/256]
+Worker 29/1: [cryst 221/256]
+Worker 27/1: [cryst 219/256]
+Worker 26/1: [cryst 218/256]
+Worker 23/1: [cryst 215/256]
+Worker 25/1: [cryst 217/256]
+Worker 42/1: [cryst 234/256]
+Worker 55/1: [cryst 247/256]
+Worker 38/1: [cryst 230/256]
+Worker 44/1: [cryst 236/256]
+Worker 24/1: [cryst 216/256]
+Worker 61/1: [cryst 253/256]
+Worker 37/1: [cryst 229/256]
+Worker 49/1: [cryst 241/256]
+Worker 52/1: [cryst 244/256]
+Worker 64/1: [cryst 256/256]
+Worker 12/1: [cryst 204/256]
+Worker 60/1: [cryst 252/256]
+Worker 48/1: [cryst 240/256]
+Worker 34/1: [cryst 226/256]
+Worker 63/1: [cryst 255/256]
+Worker 50/1: [cryst 242/256]
+Worker 54/1: [cryst 246/256]
+Worker 46/1: [cryst 238/256]
+Worker 5/1: [cryst 197/256]
+Worker 35/1: [cryst 227/256]
+Worker 3/1: [cryst 195/256]
+Worker 41/1: [cryst 233/256]
+Worker 4/1: [cryst 196/256]
+Worker 1/1: [cryst 193/256]
+Worker 2/1: [cryst 194/256]
+Worker 17/1: [cryst 209/256]
+All done!
