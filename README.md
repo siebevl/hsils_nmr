@@ -1,4 +1,4 @@
-The .zip file contains data related to the NMR study on hydrated silicate ionic liquids (doi: to be added).
+The .zip file contains data related to the NMR study on hydrated silicate ionic liquids (doi: 10.1002/ceur.70378). Another permanent copy of the same files may also be found on Zenodo: https://zenodo.org/records/22129083.
 
 Contents:
 
